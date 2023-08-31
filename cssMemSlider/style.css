@@ -13,18 +13,18 @@ body {
   width: 100%;
   height: 100vh;
 
-  background-color:rgba(46, 49, 65, 0.4); ;
-  font-size: 1rem;
+  background-color:rgba(79, 82, 100, 0.4); ;
+  font-size: 2rem;
   line-height: 1.3rem;
 }
 
 .app {
-  width: 45rem;
+  width: 55rem;
   height: auto;
   display: block;
-  padding: 1.6rem 2.2rem;
+  padding: 2rem 1.2rem;
   border-radius: 1rem;
-  background: rgba(77, 89, 151, 0.6);
+  background: rgba(114, 132, 221, 0.6);
 }
 
 .radio {
@@ -76,7 +76,7 @@ body {
 .subtitle {
   width: calc(100% / 4);
   font-weight: 300;
-  color: rgba(0, 0, 0, 0.9);
+  color: rgb(14, 53, 6);
 }
 
 .pointers {
@@ -95,8 +95,8 @@ body {
 }
 
 .pointers label:hover .pointers-item {
-  background-color: rgb(31, 107, 157);
-  border-color: rgb(31, 107, 157) !important;
+  background-color: rgb(25, 131, 201);
+  border-color: rgb(21, 89, 134) !important;
 }
 
 .pointers label:active .pointers-item {
@@ -110,7 +110,7 @@ body {
   border-radius: 50%;
   cursor: pointer;
   display: block;
-  background: rgb(53, 24, 240);
+  background: rgb(35, 9, 209);
   transition: all 0.3s;
 }
 
@@ -135,18 +135,19 @@ body {
 #slide2:checked ~ .content .pointers label:nth-child(2) .pointers-item,
 #slide3:checked ~ .content .pointers label:nth-child(3) .pointers-item,
 #slide4:checked ~ .content .pointers label:nth-child(4) .pointers-item {
-  border: 0.125rem solid rgb(36, 9, 82);
+  border: 0.125rem solid rgb(47, 15, 100);
   background: transparent;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 800px) {
   .app {
     width: 100%;
-    padding: 1.6rem 0.7rem;
+    padding: 2rem 1rem;
+    
   }
 
   .slider {
-    height: 12rem;
+    height: 15rem;
   }
 
   .content {
